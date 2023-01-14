@@ -8,8 +8,6 @@ $result = mysqli_query($conn, $sql);
 
 ?>
 
-
-
 <html>
 <head>
 	<title>Salary Table | Employee Management System</title>
@@ -47,8 +45,6 @@ $result = mysqli_query($conn, $sql);
 				<th align = "center">Bonus</th>
 				<th align = "center">TotalSalary</th>
 				<th align = "center">Options</th>
-				
-				
 			</tr>
 			
 			<?php
@@ -61,12 +57,7 @@ $result = mysqli_query($conn, $sql);
 					echo "<td>".$employee['bonus']." %</td>";
 					echo "<td>".$sum."</td>";
 					echo "<td><a href=\"editsalaryemp.php?id=$employee[id]\">Edit</a></td>";
-					
-					
-
 				}
-
-
 			?>
 			
 			</table>
