@@ -49,9 +49,6 @@
                     <h2 class="title">Registration Info</h2>
                     <form action="process/addempprocess.php" method="POST" enctype="multipart/form-data">
 
-
-                        
-
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
@@ -64,10 +61,6 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-
 
                         <div class="input-group">
                             <input class="input--style-1" type="email" placeholder="Email" name="email" required="required">
@@ -126,12 +119,6 @@
                         <div class="input-group">
                             <input class="input--style-1" type="file" placeholder="file" name="file">
                         </div>
-
-
-
-
-
-
 
                         <div class="p-t-20">
                             <button class="btn btn--radius btn--green" type="submit">Submit</button>
